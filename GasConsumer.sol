@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 // Takes a number and loops
-contract GasConsumer {
+contract GasConsume {
     uint256[] public data;
 
     // Function that consumes gas by performing a loop
