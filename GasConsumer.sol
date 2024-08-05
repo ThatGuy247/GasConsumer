@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 // Takes a number and loops - originally for zkFair
 contract GasConsume {
-    uint256[] public data;
+    uint256[] public data; 
    
     // Function that consumes gas by performing a loop   
     function consumeGas(uint256 iterations) external {
